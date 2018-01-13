@@ -126,7 +126,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".tagline-icons{\r\n\tdisplay: inline;\r\n}\r\n.icon-div{\r\n\tdisplay: inline;\r\n\tvertical-align: middle;\r\n}\r\n.angular-icon{\r\n\tcolor: #DC0330;\r\n\t-webkit-transition: all 0.5s ease 0s;\r\n\ttransition: all 0.5s ease 0s;\r\n}\r\n.angular-icon:hover{\r\n\tcolor: #212529;\r\n}\r\n.html5-icon{\r\n\tcolor: #F57933;\r\n\t-webkit-transition: all 0.5s ease 0s;\r\n\ttransition: all 0.5s ease 0s;\r\n}\r\n.html5-icon:hover{\r\n\tcolor: #212529;\r\n}\r\n.css3-icon{\r\n\tcolor: #018ED5;\r\n\t-webkit-transition: all 0.5s ease 0s;\r\n\ttransition: all 0.5s ease 0s;\r\n}\r\n.css3-icon:hover{\r\n\tcolor: #212529;\r\n}\r\n", ""]);
+exports.push([module.i, "/*Icon styling*/\r\n.tagline-icons{\r\n\tdisplay: inline;\r\n}\r\n.icon-div{\r\n\tdisplay: inline;\r\n\tvertical-align: middle;\r\n}\r\n.angular-icon{\r\n\tcolor: #DC0330;\r\n\t-webkit-transition: all 0.5s ease 0s;\r\n\ttransition: all 0.5s ease 0s;\r\n}\r\n.angular-icon:hover{\r\n\tcolor: #212529;\r\n}\r\n.html5-icon{\r\n\tcolor: #F57933;\r\n\t-webkit-transition: all 0.5s ease 0s;\r\n\ttransition: all 0.5s ease 0s;\r\n}\r\n.html5-icon:hover{\r\n\tcolor: #212529;\r\n}\r\n.css3-icon{\r\n\tcolor: #018ED5;\r\n\t-webkit-transition: all 0.5s ease 0s;\r\n\ttransition: all 0.5s ease 0s;\r\n}\r\n.css3-icon:hover{\r\n\tcolor: #212529;\r\n}\r\n/*END Icon styling*/\r\n/*Jumbotron backgrund styling*/\r\n.jumbotron {\r\nbackground-image: url(\"/assets/Homepage/jumbotron-home-background-texture.png\");\r\nbackground-size: cover;\r\n}", ""]);
 
 // exports
 
@@ -139,7 +139,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/components/jumbotron/jumbotron.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"jumbotron\">\n  <h1 class=\"display-4\">Hello my name is Zachary Toney!</h1>\n  <p class=\"lead tagline-icons\">I built this personal website using:</p>\n  \n\t<div style=\"font-size:2em;\" class=\"icon-div\">\n\t\t<i class=\"fab fa-angular angular-icon\"></i>\n\t</div>\n\n\t<div style=\"font-size:2em;\" class=\"icon-div\">\n\t\t<i class=\"fab fa-html5 html5-icon\"></i>\n\t</div>\n\n\t<div style=\"font-size:2em;\" class=\"icon-div\">\n\t\t<i class=\"fab fa-css3-alt css3-icon\"></i>\n\t</div>\n</div>"
+module.exports = "\n\n<div class=\"jumbotron\">\n\n\t<div class=\"container\">\n\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col\">\n\t\t\t  <h1 class=\"display-4 font-weight-bold text-white\">Hello my name is Zachary Toney!</h1>\n\t\t\t  <p class=\"lead tagline-icons font-weight-bold text-white\">I built this personal website using:</p>\n\t\t\t  \n\t\t\t\t<div style=\"font-size:2em;\" class=\"icon-div\">\n\t\t\t\t\t<i class=\"fab fa-angular angular-icon\"></i>\n\t\t\t\t</div>\n\n\t\t\t\t<div style=\"font-size:2em;\" class=\"icon-div\">\n\t\t\t\t\t<i class=\"fab fa-html5 html5-icon\"></i>\n\t\t\t\t</div>\n\n\t\t\t\t<div style=\"font-size:2em;\" class=\"icon-div\">\n\t\t\t\t\t<i class=\"fab fa-css3-alt css3-icon\"></i>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"col embed-responsive embed-responsive-16by9\">\n\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/n3mtVdxwVPQ?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n\t\t\t</div>\n\n\t\t</div><!--End row div-->\n\n\t</div> <!--END container div-->\n\n\n</div>"
 
 /***/ }),
 
