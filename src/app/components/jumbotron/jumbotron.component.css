@@ -1,0 +1,28 @@
+.tagline-icons{
+	display: inline;
+}
+.icon-div{
+	display: inline;
+	vertical-align: middle;
+}
+.angular-icon{
+	color: #DC0330;
+	transition: all 0.5s ease 0s;
+}
+.angular-icon:hover{
+	color: #212529;
+}
+.html5-icon{
+	color: #F57933;
+	transition: all 0.5s ease 0s;
+}
+.html5-icon:hover{
+	color: #212529;
+}
+.css3-icon{
+	color: #018ED5;
+	transition: all 0.5s ease 0s;
+}
+.css3-icon:hover{
+	color: #212529;
+}
